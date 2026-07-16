@@ -2,6 +2,7 @@ import Image from 'next/image';
 import {ChevronDown, ChevronRight} from 'lucide-react';
 import {useTranslations} from 'next-intl';
 import {Link} from '@/i18n/navigation';
+import {assetPath} from '@/lib/asset-path';
 import {siteNavigation} from '@/lib/site-map';
 import {LanguageSwitcher} from './language-switcher';
 import {ThemeToggle} from './theme-toggle';
@@ -57,7 +58,7 @@ export function Navbar() {
       <div className="mx-auto flex h-20 max-w-[92rem] items-center justify-between gap-6 px-4 sm:px-6 lg:px-8">
         <Link href="/" className="flex shrink-0 items-center gap-4">
           <Image
-            src="/logo.png"
+            src={assetPath('/logo.png')}
             alt="AI4PEP logo"
             width={48}
             height={48}

@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import {assetPath} from '@/lib/asset-path';
 
 type Logo = {
   name: string;
@@ -99,7 +100,7 @@ function LogoTile({logo, featured = false}: {logo: Logo; featured?: boolean}) {
       ].join(' ')}
     >
       <Image
-        src={logo.src}
+        src={assetPath(logo.src)}
         alt={logo.name}
         width={logo.wide ? 430 : 230}
         height={featured ? 180 : 150}

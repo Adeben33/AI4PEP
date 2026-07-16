@@ -1,4 +1,5 @@
 import Image from "next/image";
+import {assetPath} from "@/lib/asset-path";
 
 const menaProjects = [
   {
@@ -84,7 +85,7 @@ function PartnerLogo({
   return (
     <div className="flex h-28 w-48 shrink-0 items-center justify-center rounded-lg border border-brand-cream/70 bg-white p-5 shadow-sm">
       <Image
-        src={partner.src}
+        src={assetPath(partner.src)}
         alt={partner.name}
         width={partner.wide ? 190 : 150}
         height={partner.wide ? 86 : 110}
@@ -113,7 +114,7 @@ export function MenaPage() {
 
           <div className="mx-auto mt-12 max-w-5xl rounded-lg border border-brand-yellow/20 bg-white p-3 shadow-soft">
             <Image
-              src="/projects/mena-projects-map.png"
+              src={assetPath('/projects/mena-projects-map.png')}
               alt="AI4PEP MENA project map"
               width={1640}
               height={705}

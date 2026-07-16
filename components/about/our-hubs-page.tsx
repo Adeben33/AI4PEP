@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import {assetPath} from '@/lib/asset-path';
 
 const mapTeams = [
   {name: 'Cabo Verde', href: 'https://ai4pep.org/cabo-verde/', left: 32.2, top: 38.2},
@@ -105,7 +106,7 @@ export function InteractiveHubsMap() {
   return (
     <div className="relative mt-12 overflow-hidden rounded-lg border border-brand-yellow/25 bg-white p-2 shadow-soft">
       <Image
-        src="/hubs/our-hubs-map.png"
+        src={assetPath('/hubs/our-hubs-map.png')}
         alt="AI4PEP hubs map"
         width={1248}
         height={702}

@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import {assetPath} from '@/lib/asset-path';
 
 const internalTeam = [
   {
@@ -107,7 +108,7 @@ export function SecretariatPage() {
                 <div className="overflow-hidden rounded-md bg-white shadow-[0_18px_50px_rgba(11,20,16,0.10)] dark:bg-white">
                   <div className="relative aspect-[4/3] bg-white">
                     <Image
-                      src={member.image}
+                      src={assetPath(member.image)}
                       alt={`${member.name} portrait`}
                       fill
                       sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw"

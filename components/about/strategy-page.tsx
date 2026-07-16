@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import {assetPath} from '@/lib/asset-path';
 
 const researchThemes = [
   'Early Warning Systems',
@@ -58,7 +59,7 @@ export function StrategyPage() {
 
           <div className="mt-9 overflow-hidden rounded-sm border border-white/40 bg-white shadow-soft">
             <Image
-              src="/strategy/theory-of-change.png"
+              src={assetPath('/strategy/theory-of-change.png')}
               alt="AI4PEP Theory of Change"
               width={1024}
               height={588}

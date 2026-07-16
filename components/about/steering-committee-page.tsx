@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import {assetPath} from '@/lib/asset-path';
 
 const committeeMembers = [
   {
@@ -116,7 +117,7 @@ export function SteeringCommitteePage() {
               >
                 <div className="relative aspect-square bg-white">
                   <Image
-                    src={member.image}
+                    src={assetPath(member.image)}
                     alt={member.name}
                     fill
                     sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 100vw"

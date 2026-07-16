@@ -1,6 +1,7 @@
 import {BookOpenText, Check, CirclePlay, FilePieChart, Globe2, Network} from 'lucide-react';
 import {Button} from '@/components/ui/button';
 import {Link} from '@/i18n/navigation';
+import {assetPath} from '@/lib/asset-path';
 
 const quickLinks = [
   {
@@ -201,7 +202,7 @@ export function FundersAndHosts() {
               className="group flex min-h-40 flex-col items-center justify-center gap-4 rounded-lg border border-brand-green/10 bg-white px-6 py-7 shadow-sm transition hover:-translate-y-1 hover:border-brand-green/30 hover:shadow-soft dark:border-brand-yellow/25 dark:bg-white dark:hover:border-brand-yellow/60"
             >
               <img
-                src={funder.logo}
+                src={assetPath(funder.logo)}
                 alt={`${funder.name} logo`}
                 className={`${funder.wide ? 'max-h-24' : 'max-h-20'} max-w-full object-contain transition group-hover:scale-[1.03]`}
                 loading="lazy"

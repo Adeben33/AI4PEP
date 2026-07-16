@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import {assetPath} from '@/lib/asset-path';
 
 const lacProjects = [
   {
@@ -35,7 +36,7 @@ function PartnerLogo({partner}: {partner: (typeof lacPartners)[number]}) {
   return (
     <div className="flex h-28 w-48 shrink-0 items-center justify-center rounded-md border border-brand-green/10 bg-white p-4 shadow-sm dark:border-white/10 dark:bg-white/[0.06]">
       <Image
-        src={partner.src}
+        src={assetPath(partner.src)}
         alt={partner.name}
         width={partner.wide ? 320 : 180}
         height={140}
@@ -62,7 +63,7 @@ export function LacPage() {
 
           <div className="mx-auto mt-12 max-w-5xl rounded-lg border border-brand-yellow/20 bg-white p-3 shadow-soft">
             <Image
-              src="/projects/lac-projects-map.png"
+              src={assetPath('/projects/lac-projects-map.png')}
               alt="AI4PEP LAC project map"
               width={863}
               height={475}

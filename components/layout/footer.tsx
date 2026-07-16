@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import {ArrowUpRight, Mail, MapPin, Phone} from 'lucide-react';
 import {Link} from '@/i18n/navigation';
+import {assetPath} from '@/lib/asset-path';
 
 const siteLinks = [
   {href: '/about-us', label: 'About AI4PEP'},
@@ -61,7 +62,7 @@ export function Footer() {
           <div>
             <Link href="/" className="inline-flex items-center gap-4">
               <Image
-                src="/logo.png"
+                src={assetPath('/logo.png')}
                 alt="AI4PEP logo"
                 width={52}
                 height={52}

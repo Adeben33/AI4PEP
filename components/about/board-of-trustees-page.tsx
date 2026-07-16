@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import {assetPath} from '@/lib/asset-path';
 
 const trustees = [
   {
@@ -102,7 +103,7 @@ export function BoardOfTrusteesPage() {
             <article className="overflow-hidden rounded-md border border-brand-green/15 bg-white shadow-soft dark:border-white/10 dark:bg-white/[0.06]">
               <div className="relative aspect-[4/3] bg-white">
                 <Image
-                  src={chair.image}
+                  src={assetPath(chair.image)}
                   alt={chair.name}
                   fill
                   priority
@@ -157,7 +158,7 @@ export function BoardOfTrusteesPage() {
               >
                 <div className="relative aspect-[5/4] bg-white">
                   <Image
-                    src={trustee.image}
+                    src={assetPath(trustee.image)}
                     alt={trustee.name}
                     fill
                     sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"

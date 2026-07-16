@@ -1,0 +1,19 @@
+{
+  "Navbar": {
+    "home": "الرئيسية",
+    "about": "من نحن",
+    "projects": "المشاريع",
+    "ai4mpox": "AI4Mpox",
+    "news": "الأخبار",
+    "events": "الفعاليات",
+    "resources": "الموارد",
+    "students": "الطلاب",
+    "funding": "التمويل",
+    "contact": "اتصل بنا"
+  },
+  "Common": {
+    "language": "اللغة",
+    "darkMode": "الوضع الداكن",
+    "lightMode": "الوضع الفاتح"
+  }
+}

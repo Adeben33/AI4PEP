@@ -1,0 +1,19 @@
+{
+  "Navbar": {
+    "home": "Home",
+    "about": "About Us",
+    "projects": "Projects",
+    "ai4mpox": "AI4Mpox",
+    "news": "News",
+    "events": "Events",
+    "resources": "Resources",
+    "students": "Students",
+    "funding": "Funding",
+    "contact": "Contact Us"
+  },
+  "Common": {
+    "language": "Language",
+    "darkMode": "Dark mode",
+    "lightMode": "Light mode"
+  }
+}

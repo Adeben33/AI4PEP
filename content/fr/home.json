@@ -1,0 +1,18 @@
+{
+  "hero": {
+    "badge": "Translation pending",
+    "eyebrow": "Translation pending",
+    "titleLine1": "Translation pending",
+    "titleLine2": "Translation pending",
+    "titleHighlight": "Translation pending",
+    "description": "Run npm run translate to generate this file using Azure Translator.",
+    "primaryCta": "Translation pending",
+    "secondaryCta": "Translation pending"
+  },
+  "stats": [],
+  "focusAreas": [],
+  "featured": {
+    "title": "Translation pending",
+    "description": "Run npm run translate to generate this file using Azure Translator."
+  }
+}

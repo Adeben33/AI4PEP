@@ -1,0 +1,48 @@
+{
+  "hero": {
+    "badge": "Live network across regions",
+    "eyebrow": "AI for Pandemic & Epidemic Preparedness",
+    "titleLine1": "Global South AI for",
+    "titleLine2": "Pandemic & Epidemic",
+    "titleHighlight": "Preparedness & Response Network",
+    "description": "AI4PEP unites data scientists, epidemiologists, mathematicians, and community health workers across Africa, Asia, LAC, and MENA to build AI tools that reach the people who need them most.",
+    "primaryCta": "Explore Our Work",
+    "secondaryCta": "Join the Network"
+  },
+  "stats": [
+    {
+      "value": "26+",
+      "label": "Countries"
+    },
+    {
+      "value": "4",
+      "label": "Regions"
+    },
+    {
+      "value": "100+",
+      "label": "Researchers and partners"
+    },
+    {
+      "value": "AI",
+      "label": "For public health impact"
+    }
+  ],
+  "focusAreas": [
+    {
+      "title": "Responsible AI for preparedness",
+      "description": "We support AI tools that are ethical, inclusive, locally relevant, and designed for real public health decision-making."
+    },
+    {
+      "title": "Regional research capacity",
+      "description": "We strengthen networks across Africa, Asia, Latin America and the Caribbean, and the Middle East and North Africa."
+    },
+    {
+      "title": "Data-driven health action",
+      "description": "We connect modelling, surveillance, community knowledge, and implementation science to support faster responses to outbreaks."
+    }
+  ],
+  "featured": {
+    "title": "Building AI systems that work with communities, not just for them.",
+    "description": "This starter content is intentionally editable. Update the English JSON files, run the Azure translation script, review the translated files, and deploy the multilingual website."
+  }
+}
